@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "lato", "Arial", "sans-serif";
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  color: #2c3e50;
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
+.header {
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #fff;
+height: 500px;
+}
+
+.header h1 {
+    font-weight: 700;
+}
+
+.header h3 {
+    font-weight: 400;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header ul li {
+    float: left;
+    margin: 0 auto;    
+}
