@@ -1,47 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="resources/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="resources/css/style.css" />
     <title>Resume Template</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <div class="jumbotron jumbotron-fluid header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-3">
-                        <h1>Joan Vasquez</h1>
-                        <h3>Software Engineer</h3>
-                    </div>
-                    <div class="col-sm-12 col-md-9">
-                        <div class="d-flex">
-                            <ul class="ml-auto">
-                                    <li class="p-3"><i class="fab fa-whatsapp fa-2x"></i></li>
-                                    <li class="p-3"><i class="fab fa-facebook-f fa-2x"></i></a></li>
-                                    <li class="p-3"><i class="fab fa-instagram fa-2x"></i></a></li>
-                                    <li class="p-3"><i class="fab fa-twitter fa-2x"></i></a></li>
-                                    <li class="p-3"><i class="fab fa-google-plus-g fa-2x"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="#">Menu</a>
+              <button
+                class="navbar-toggler mt-2 mb-2"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav nav-pills nav-fill mx-auto">
+                  <li class="nav-item pt-2 pb-2">
+                    <a
+                      data-toggle="tab"
+                      role="tab"
+                      aria-controls="section-about"
+                      aria-selected="true"
+                      id="section-about-tab"
+                      class="nav-link p-3 ml-1 btn-tabs"
+                      href="#section-about"
+                      ><i class="far fa-user"></i>
+                      <span class="ml-1">ABOUT ME</span></a
+                    >
+                  </li>
+                  <li class="nav-item pt-2 pb-2">
+                    <a
+                      data-toggle="tab"
+                      role="tab"
+                      aria-controls="section-resume"
+                      aria-selected="false"
+                      id="section-resume-tab"
+                      class="nav-link p-3 ml-1 btn-tabs"
+                      href="#section-resume"
+                      ><i class="far fa-id-card"></i>
+                      <span class="ml-1">RESUME</span></a
+                    >
+                  </li>
+                  <li class="nav-item pt-2 pb-2">
+                    <a
+                      data-toggle="tab"
+                      role="tab"
+                      aria-controls="section-portfolio"
+                      aria-selected="false"
+                      id="section-portfolio-tab"
+                      class="nav-link p-3 ml-1 btn-tabs"
+                      href="#section-portfolio"
+                      ><i class="far fa-folder-open"></i>
+                      <span class="ml-1">PORTFOLIO</span></a
+                    >
+                  </li>
+                  <li class="nav-item pt-2 pb-2">
+                    <a
+                      data-toggle="tab"
+                      role="tab"
+                      aria-controls="section-contact"
+                      aria-selected="false"
+                      id="section-contact-tab"
+                      class="nav-link p-3 ml-1 btn-tabs"
+                      href="#section-contact"
+                      ><i class="far fa-envelope"></i>
+                      <span class="ml-1">CONTACT ME</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
+
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-md-12 col-lg-3">
+          <div class="section-user p-2 pb-5" id="scrollbar">
+            <h1 class="text-center">Natalie Castro</h1>
+            <hr />
+            <div class="text-center">
+              <img
+                class="rounded-circle"
+                src="https://randomuser.me/api/portraits/women/9.jpg"
+                alt=""
+              />
+            </div>
+
+            <ul class="mt-4">
+              <li>
+                <p>
+                  <span class="float-left"><strong>NAME</strong></span> Natalie
+                  Castro
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <span class="float-left"><strong>AGE</strong></span> 30 Years
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <span class="float-left"><strong>LOCATION</strong></span> New
+                  York, USA
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <span class="float-left"><strong>DEGREE</strong></span> MBA
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <span class="float-left"><strong>PHONE</strong></span>
+                  (749)-783-4608
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <span class="float-left"><strong>FAX</strong></span>
+                  (749)-783-4609
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span class="float-left"><strong>EMAIL</strong></span>
+                  <a href="mailto:natalie.castro61@example.com"
+                    >natalie.castro61@example.com</a
+                  >
+                </p>
+              </li>
+            </ul>
+            <hr />
+            <h2 class="text-center">ATTACHMENTS</h2>
+            <hr />
+            <a href="#" class="btn btn-outline-info"
+              ><i class="far fa-arrow-alt-circle-down"></i> Download Resume</a
+            >
+
+            <hr />
+            <h2 class="text-center">SOCIAL MEDIAS</h2>
+            <hr />
+            <div class="p-3 social-media">
+              <ul>
+                <li>
+                  <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fab fa-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-9">
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active section-about"
+              role="tabpanel"
+              aria-labelledby="section-about-tab"
+              id="section-about"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem mollitia esse voluptatibus expedita veritatis adipisci
+              quas ad optio dolor, iste in enim, aliquam, eius quasi nihil ipsam
+              inventore quaerat consectetur?
+            </div>
+
+            <div
+              class="tab-pane fade section-resume"
+              role="tabpanel"
+              aria-labelledby="section-resume-tab"
+              id="section-resume"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+              vitae a doloribus. Doloremque praesentium sapiente voluptates
+              repudiandae deleniti ratione eveniet vitae velit impedit, a
+              voluptatem consectetur similique quasi explicabo! Nostrum!
+            </div>
+
+            <div
+              class="tab-pane fade section-portfolio"
+              role="tabpanel"
+              aria-labelledby="section-portfolio-tab"
+              id="section-portfolio"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+              autem atque necessitatibus optio tenetur rem iste vero deserunt.
+              Voluptatibus perferendis error ab porro accusantium sunt vero
+              voluptatem, illum nemo cum.
+            </div>
+
+            <div
+              class="tab-pane fade section-contact"
+              role="tabpanel"
+              aria-labelledby="section-contact-tab"
+              id="section-contact"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              modi in dicta officiis illum consequatur, optio earum voluptatum
+              atque reiciendis, nisi itaque eligendi perferendis dolorum dolores
+              assumenda asperiores voluptates explicabo?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="vendors/js/jquery-3.3.1.min.js"></script>
     <script src="vendors/js/bootstrap.min.js"></script>
     <script src="resources/js/app.js"></script>
-</body>
-
+  </body>
 </html>
