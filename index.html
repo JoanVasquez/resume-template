@@ -1,252 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="stylesheet" href="vendors/css/bootstrap.min.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
     <link rel="stylesheet" href="resources/css/style.css" />
     <title>Resume Template</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="#">Menu</a>
-              <button
-                class="navbar-toggler mt-2 mb-2"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#">Menu</a>
+                        <button class="navbar-toggler mt-2 mb-2" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav nav-pills nav-fill mx-auto">
-                  <li class="nav-item pt-2 pb-2">
-                    <a
-                      data-toggle="tab"
-                      role="tab"
-                      aria-controls="section-about"
-                      aria-selected="true"
-                      id="section-about-tab"
-                      class="nav-link p-3 ml-1 btn-tabs"
-                      href="#section-about"
-                      ><i class="far fa-user"></i>
-                      <span class="ml-1">ABOUT ME</span></a
-                    >
-                  </li>
-                  <li class="nav-item pt-2 pb-2">
-                    <a
-                      data-toggle="tab"
-                      role="tab"
-                      aria-controls="section-resume"
-                      aria-selected="false"
-                      id="section-resume-tab"
-                      class="nav-link p-3 ml-1 btn-tabs"
-                      href="#section-resume"
-                      ><i class="far fa-id-card"></i>
-                      <span class="ml-1">RESUME</span></a
-                    >
-                  </li>
-                  <li class="nav-item pt-2 pb-2">
-                    <a
-                      data-toggle="tab"
-                      role="tab"
-                      aria-controls="section-portfolio"
-                      aria-selected="false"
-                      id="section-portfolio-tab"
-                      class="nav-link p-3 ml-1 btn-tabs"
-                      href="#section-portfolio"
-                      ><i class="far fa-folder-open"></i>
-                      <span class="ml-1">PORTFOLIO</span></a
-                    >
-                  </li>
-                  <li class="nav-item pt-2 pb-2">
-                    <a
-                      data-toggle="tab"
-                      role="tab"
-                      aria-controls="section-contact"
-                      aria-selected="false"
-                      id="section-contact-tab"
-                      class="nav-link p-3 ml-1 btn-tabs"
-                      href="#section-contact"
-                      ><i class="far fa-envelope"></i>
-                      <span class="ml-1">CONTACT ME</span></a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav nav nav-pills nav-fill mx-auto">
+                                <li class="nav-item pt-2 pb-2">
+                                    <a data-toggle="tab" role="tab" aria-controls="section-about" aria-selected="true"
+                                        id="section-about-tab" class="nav-link p-3 ml-1 btn-tabs"
+                                        href="#section-about"><i class="far fa-user"></i>
+                                        <span class="ml-1">ABOUT ME</span></a>
+                                </li>
+                                <li class="nav-item pt-2 pb-2">
+                                    <a data-toggle="tab" role="tab" aria-controls="section-resume" aria-selected="false"
+                                        id="section-resume-tab" class="nav-link p-3 ml-1 btn-tabs"
+                                        href="#section-resume"><i class="far fa-id-card"></i>
+                                        <span class="ml-1">RESUME</span></a>
+                                </li>
+                                <li class="nav-item pt-2 pb-2">
+                                    <a data-toggle="tab" role="tab" aria-controls="section-portfolio"
+                                        aria-selected="false" id="section-portfolio-tab"
+                                        class="nav-link p-3 ml-1 btn-tabs" href="#section-portfolio"><i
+                                            class="far fa-folder-open"></i>
+                                        <span class="ml-1">PORTFOLIO</span></a>
+                                </li>
+                                <li class="nav-item pt-2 pb-2">
+                                    <a data-toggle="tab" role="tab" aria-controls="section-contact"
+                                        aria-selected="false" id="section-contact-tab"
+                                        class="nav-link p-3 ml-1 btn-tabs" href="#section-contact"><i
+                                            class="far fa-envelope"></i>
+                                        <span class="ml-1">CONTACT ME</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
 
     <div class="container-fluid mt-5">
-      <div class="row">
-        <div class="col-md-12 col-lg-3">
-          <div class="section-user p-2 pb-5" id="scrollbar">
-            <h1 class="text-center">Natalie Castro</h1>
-            <hr />
-            <div class="text-center">
-              <img
-                class="rounded-circle"
-                src="https://randomuser.me/api/portraits/women/9.jpg"
-                alt=""
-              />
+        <div class="row">
+            <div class="col-md-12 col-lg-3">
+                <div class="section-user p-2 pb-5" id="scrollbar">
+                    <h1 class="text-center">Natalie Castro</h1>
+                    <hr />
+                    <div class="text-center">
+                        <img class="rounded-circle" src="https://randomuser.me/api/portraits/women/9.jpg" alt="" />
+                    </div>
+
+                    <ul class="mt-4">
+                        <li class="clearfix">
+                            <p>
+                                <span class="float-left"><strong>NAME</strong></span> <span class="float-right">Natalie
+                                    Castro</span>
+                            </p>
+                        </li>
+
+                        <li class="clearfix">
+                            <p>
+                                <span class="float-left"><strong>AGE</strong></span> <span class="float-right">30
+                                    Years</span>
+                            </p>
+                        </li>
+
+                        <li class="clearfix">
+                            <p>
+                                <span class="float-left"><strong>LOCATION</strong></span> <span class="float-right"> New
+                                    York, USA</span>
+                            </p>
+                        </li>
+
+                        <li class="clearfix">
+                            <p>
+                                <span class="float-left"><strong>DEGREE</strong></span> <span
+                                    class="float-right">MBA</span>
+                            </p>
+                        </li>
+
+                        <li class="clearfix">
+                            <p>
+                                <span class="float-left"><strong>PHONE</strong></span> <span
+                                    class="float-right">(749)-783-4608</span>
+                            </p>
+                        </li>
+
+                        <li class="clearfix">
+                            <p>
+                                <span class="float-left"><strong>FAX</strong></span> <span
+                                    class="float-right">(749)-783-4609</span>
+                            </p>
+                        </li>
+                        <li class="clearfix">
+                            <p>
+                                <span class="float-left"><strong>EMAIL</strong></span> <span class="float-right"><a
+                                        href="mailto:natalie.castro61@example.com">natalie.castro61@example.com</a></span>
+                            </p>
+                        </li>
+                    </ul>
+                    <hr />
+                    <h2 class="text-center">ATTACHMENTS</h2>
+                    <hr />
+                    <a href="#" class="btn btn-outline-info"><i class="far fa-arrow-alt-circle-down"></i> Download
+                        Resume</a>
+
+                    <hr />
+                    <h2 class="text-center">SOCIAL MEDIAS</h2>
+                    <hr />
+                    <div class="p-3 social-media">
+                        <ul>
+                            <li>
+                                <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <div class="col-md-12 col-lg-9 p-3 bg-white main-section">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active section-about" role="tabpanel"
+                        aria-labelledby="section-about-tab" id="section-about">
+                        <h2>I'M A WEB DEVELOPER</h2>
+                        <hr />
+                        <div class="web-dev">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Explicabo exercitationem iste accusamus dignissimos similique
+                                tempora corrupti, rem magni vero blanditiis quo, sunt illo
+                                molestiae in voluptates nostrum distinctio neque labore. Lorem
+                                ipsum dolor sit amet, consectetur adipisicing elit. Ut alias
+                                aliquid veniam expedita saepe dolor eligendi rem, officia
+                                veritatis fugiat commodi, consectetur cupiditate blanditiis!
+                                Provident, amet maxime? Ratione, voluptate officiis. Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Nulla similique
+                                quod sint voluptate porro aperiam distinctio magnam commodi!
+                                Mollitia aspernatur explicabo repellat in hic quibusdam quam
+                                unde numquam alias fuga!
+                            </p>
 
-            <ul class="mt-4">
-              <li>
-                <p>
-                  <span class="float-left"><strong>NAME</strong></span> Natalie
-                  Castro
-                </p>
-              </li>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Explicabo exercitationem iste accusamus dignissimos similique
+                                tempora corrupti, rem magni vero blanditiis quo, sunt illo
+                                molestiae in voluptates nostrum distinctio neque labore. Lorem
+                                ipsum dolor sit amet, consectetur adipisicing elit. Ut alias
+                                aliquid veniam expedita saepe dolor eligendi rem, officia
+                                veritatis fugiat commodi, consectetur cupiditate blanditiis!
+                                Provident, amet maxime? Ratione, voluptate officiis. Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Nulla similique
+                                quod sint voluptate porro aperiam distinctio magnam commodi!
+                                Mollitia aspernatur explicabo repellat in hic quibusdam quam
+                                unde numquam alias fuga!
+                            </p>
+                        </div>
 
-              <li>
-                <p>
-                  <span class="float-left"><strong>AGE</strong></span> 30 Years
-                </p>
-              </li>
+                        <div class="services mt-5">
+                            <h2>SERVICES</h2>
+                            <hr>
+                            <div class="row mt-3">
+                                <div class="col-sm-12 col-md-4 text-center">
+                                    <div class="service-icons">
+                                        <i class="fab fa-chrome"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>WEB DEVELOPMENT</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus
+                                            officiis fuga nulla harum at pariatur fugit excepturi tenetur distinctio
+                                            numquam, temporibus ullam eaque itaque laudantium non dolores. Non, rem?</p>
+                                    </div>
+                                </div>
 
-              <li>
-                <p>
-                  <span class="float-left"><strong>LOCATION</strong></span> New
-                  York, USA
-                </p>
-              </li>
+                                <div class="col-sm-12 col-md-4 text-center">
+                                    <div class="service-icons">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>BACKEND DEVELOPMENT</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus
+                                            officiis fuga nulla harum at pariatur fugit excepturi tenetur distinctio
+                                            numquam, temporibus ullam eaque itaque laudantium non dolores. Non, rem?</p>
+                                    </div>
+                                </div>
 
-              <li>
-                <p>
-                  <span class="float-left"><strong>DEGREE</strong></span> MBA
-                </p>
-              </li>
+                                <div class="col-sm-12 col-md-4 text-center">
+                                    <div class="service-icons">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>DATABASE USAGE</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus
+                                            officiis fuga nulla harum at pariatur fugit excepturi tenetur distinctio
+                                            numquam, temporibus ullam eaque itaque laudantium non dolores. Non, rem?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-12 col-md-4 text-center">
+                                    <div class="service-icons">
+                                        <i class="fab fa-linux"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>LINUX OS</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus
+                                            officiis fuga nulla harum at pariatur fugit excepturi tenetur distinctio
+                                            numquam, temporibus ullam eaque itaque laudantium non dolores. Non, rem?</p>
+                                    </div>
+                                </div>
 
-              <li>
-                <p>
-                  <span class="float-left"><strong>PHONE</strong></span>
-                  (749)-783-4608
-                </p>
-              </li>
+                                <div class="col-sm-12 col-md-4 text-center">
+                                    <div class="service-icons">
+                                        <i class="fas fa-atom"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>DATASCIENCE</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus
+                                            officiis fuga nulla harum at pariatur fugit excepturi tenetur distinctio
+                                            numquam, temporibus ullam eaque itaque laudantium non dolores. Non, rem?</p>
+                                    </div>
+                                </div>
 
-              <li>
-                <p>
-                  <span class="float-left"><strong>FAX</strong></span>
-                  (749)-783-4609
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span class="float-left"><strong>EMAIL</strong></span>
-                  <a href="mailto:natalie.castro61@example.com"
-                    >natalie.castro61@example.com</a
-                  >
-                </p>
-              </li>
-            </ul>
-            <hr />
-            <h2 class="text-center">ATTACHMENTS</h2>
-            <hr />
-            <a href="#" class="btn btn-outline-info"
-              ><i class="far fa-arrow-alt-circle-down"></i> Download Resume</a
-            >
+                                <div class="col-sm-12 col-md-4 text-center">
+                                    <div class="service-icons">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>MOBILE DEVELOPMENT</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus
+                                            officiis fuga nulla harum at pariatur fugit excepturi tenetur distinctio
+                                            numquam, temporibus ullam eaque itaque laudantium non dolores. Non, rem?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            <hr />
-            <h2 class="text-center">SOCIAL MEDIAS</h2>
-            <hr />
-            <div class="p-3 social-media">
-              <ul>
-                <li>
-                  <a href="#"> <i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fab fa-twitter"></i></a>
-                </li>
-              </ul>
+                        <div class="skills mt-5">
+                            <h2>SKILLS</h2>
+                            <hr>
+
+                            <div class="accordion p-5 mb-5">
+                                <div class="panel panel-default">
+                                    <div class="row mt-4">
+                                        <div class="col-sm-4">
+                                            <!-- PANEL HEADING -->
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title"> <span>Java SE/EE</span> </h4>
+                                            </div>
+                                        </div>
+
+                                        <!-- Skillls Bars -->
+                                        <div class="col-sm-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100" style="width: 80%;"> <span
+                                                        class="sr-only">60% Complete</span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                            <div class="col-sm-4">
+                                                <!-- PANEL HEADING -->
+                                                <div class="panel-heading">
+                                                    <h4 class="panel-title"> <span>ASP.Net Framework</span> </h4>
+                                                </div>
+                                            </div>
+    
+                                            <!-- Skillls Bars -->
+                                            <div class="col-sm-8">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                                        aria-valuemin="0" aria-valuemax="100" style="width: 60%;"> <span
+                                                            class="sr-only">60% Complete</span> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade section-resume" role="tabpanel" aria-labelledby="section-resume-tab"
+                        id="section-resume">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+                        vitae a doloribus. Doloremque praesentium sapiente voluptates
+                        repudiandae deleniti ratione eveniet vitae velit impedit, a
+                        voluptatem consectetur similique quasi explicabo! Nostrum!
+                    </div>
+
+                    <div class="tab-pane fade section-portfolio" role="tabpanel" aria-labelledby="section-portfolio-tab"
+                        id="section-portfolio">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                        autem atque necessitatibus optio tenetur rem iste vero deserunt.
+                        Voluptatibus perferendis error ab porro accusantium sunt vero
+                        voluptatem, illum nemo cum.
+                    </div>
+
+                    <div class="tab-pane fade section-contact" role="tabpanel" aria-labelledby="section-contact-tab"
+                        id="section-contact">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                        modi in dicta officiis illum consequatur, optio earum voluptatum
+                        atque reiciendis, nisi itaque eligendi perferendis dolorum dolores
+                        assumenda asperiores voluptates explicabo?
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-md-12 col-lg-9">
-          <div class="tab-content" id="nav-tabContent">
-            <div
-              class="tab-pane fade show active section-about"
-              role="tabpanel"
-              aria-labelledby="section-about-tab"
-              id="section-about"
-            >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem mollitia esse voluptatibus expedita veritatis adipisci
-              quas ad optio dolor, iste in enim, aliquam, eius quasi nihil ipsam
-              inventore quaerat consectetur?
-            </div>
-
-            <div
-              class="tab-pane fade section-resume"
-              role="tabpanel"
-              aria-labelledby="section-resume-tab"
-              id="section-resume"
-            >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
-              vitae a doloribus. Doloremque praesentium sapiente voluptates
-              repudiandae deleniti ratione eveniet vitae velit impedit, a
-              voluptatem consectetur similique quasi explicabo! Nostrum!
-            </div>
-
-            <div
-              class="tab-pane fade section-portfolio"
-              role="tabpanel"
-              aria-labelledby="section-portfolio-tab"
-              id="section-portfolio"
-            >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
-              autem atque necessitatibus optio tenetur rem iste vero deserunt.
-              Voluptatibus perferendis error ab porro accusantium sunt vero
-              voluptatem, illum nemo cum.
-            </div>
-
-            <div
-              class="tab-pane fade section-contact"
-              role="tabpanel"
-              aria-labelledby="section-contact-tab"
-              id="section-contact"
-            >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-              modi in dicta officiis illum consequatur, optio earum voluptatum
-              atque reiciendis, nisi itaque eligendi perferendis dolorum dolores
-              assumenda asperiores voluptates explicabo?
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <script src="vendors/js/jquery-3.3.1.min.js"></script>
     <script src="vendors/js/bootstrap.min.js"></script>
     <script src="resources/js/app.js"></script>
-  </body>
+</body>
+
 </html>

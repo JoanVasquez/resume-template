@@ -36,6 +36,35 @@ header .active {
     background-color: #fff;
     box-shadow: 2px 0 2px #f5f6fa;
     overflow: auto;
+    height: 100%;
+}
+
+.accordion .panel {
+    margin-bottom: 30px;
+    position: relative;
+    border: none;
+    margin-top: 0;
+}
+
+.accordion .panel-default .panel-heading {
+    background-color: #fff;
+    padding: 0;
+}
+
+.progress-bar {
+    background-color: #ff7f50;
+}
+
+.panel-group .panel-heading {
+    border-bottom: 0;
+}
+
+.panel-group.accordion .panel-title {
+    margin-top: 0;
+}
+
+.panel-title {
+    font-size: 16px;
 }
 
 .section-user ul {
@@ -50,9 +79,9 @@ header .active {
     line-height: 30px;
 }
 
-.section-user ul li p span {
-    width: 50%;
-}
+/*.section-user ul li p span {
+    width: 30%;
+}*/
 
 .social-media ul {
     list-style: none;
@@ -73,4 +102,21 @@ header .active {
     font-size: 20px;
     line-height: 48px;
     margin-right: 8px;
+}
+
+.main-section {
+    box-shadow: -2px 0 2px #f5f6fa;
+}
+
+.service-icons {
+    background-color: #ff7f50 !important;
+    border-color: #ff7f50 !important;
+    color: #fff;
+    line-height: 78px !important;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 26px;
+    margin-bottom: 15px;
+    display: inline-block;
 }
