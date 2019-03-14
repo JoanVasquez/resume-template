@@ -14,9 +14,9 @@ body {
   overflow-x: hidden;
 }
 
-/*h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-}*/
+h2 {
+    font-size: 1.5rem;
+}
 
 header {
     background-color: #fff;
@@ -30,6 +30,10 @@ header .navbar {
 
 header .active {
     background-color: transparent !important;
+}
+
+.sections-header {
+    cursor: pointer;
 }
 
 .section-user {
@@ -78,10 +82,6 @@ header .active {
 .section-user ul li p {
     line-height: 30px;
 }
-
-/*.section-user ul li p span {
-    width: 30%;
-}*/
 
 .social-media ul {
     list-style: none;
